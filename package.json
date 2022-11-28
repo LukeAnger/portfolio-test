@@ -1,0 +1,36 @@
+{
+  "name": "movie-browser",
+  "version": "1.1.0",
+  "description": "HRSF77/78 Review: Movie Browser",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack --config ./webpack.config.js  -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "framer-motion": "^7.6.12",
+    "jquery": "^3.6.1",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-speech-kit": "^3.0.1",
+    "tailwind": "^4.0.0",
+    "underscore": "^1.12.1"
+  }
+}

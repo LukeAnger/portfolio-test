@@ -1,0 +1,329 @@
+body {
+  margin:0;
+  background-color: rgb(117, 117, 117);
+  font-family: sans-serif, arial;
+}
+.button {
+  position: absolute;
+  top:20px;
+  left: calc(50% - 50px);
+}
+.title-projects {
+  position: absolute;
+  top: 43px;
+  left: 20px;
+  z-index: 1;
+}
+.title-aboutme {
+  position: absolute;
+  top: 43px;
+  left: 2px;
+  z-index: 1;
+}
+.hex-menu {
+  width: 50%;
+  height: 50%;
+  background-color: aliceblue;
+  position: absolute;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.aboutme-button {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(231, 45, 12);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+
+.resume-button {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(199, 105, 17);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+.tutorials-button {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(245, 235, 97);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+.projects-button {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(89, 245, 89);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+.random-button {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(54, 189, 223);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+.contact-button {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(203, 70, 230);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1080px;
+  height: 780px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(226, 96, 36);
+}
+.navbar-title {
+  position: relative;
+}
+
+.aboutme-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 101.60254px);
+}
+.aboutme-hex1 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(0px);
+  left: calc(-203.20508px)
+}
+
+.aboutme-hex2 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(-58.660254px);
+  left: calc(-198.20508px)
+}
+.aboutme-hex3 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(-58.660254px);
+  left: calc(-101.60254px);
+}
+.aboutme-hex4 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: calc(-96.60254px);
+}
+.aboutme-hex5 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(58.660254px);
+  left: calc(-101.60254px);
+}
+.aboutme-hex6 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(30, 155, 204);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(58.660254px);
+  left: calc(-198.20508px)
+}
+.aboutme-hex-fill1 {
+  width: 0;
+  height: 0;
+  border-left: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(-6px);
+  left: calc(-204.20508px)
+}
+.aboutme-hex-fill2 {
+  width: 0;
+  height: 0;
+  border-right: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(-62px);
+  left: calc(-204.20508px)
+}
+.aboutme-hex-fill3 {
+  width: 0;
+  height: 0;
+  border-left: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(-62px);
+  left: calc(-106.60254px)
+}
+.aboutme-hex-fill4 {
+  width: 0;
+  height: 0;
+  border-right: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(-6px);
+  left: calc(-106.60254px)
+}
+.aboutme-hex-fill5 {
+  width: 0;
+  height: 0;
+  border-left: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(50px);
+  left: calc(-106.60254px)
+}
+.aboutme-hex-fill6 {
+  width: 0;
+  height: 0;
+  border-right: 98.14955px solid rgb(30, 155, 204);
+  border-top: 56.6666px solid transparent ;
+  border-bottom: 56.6666px solid transparent;
+  position: absolute;
+  top: calc(50px);
+  left: calc(-204.20508px)
+}
+.resume-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 108.660254px);
+  left: calc(50% - 96.60254px);
+}
+
+.tutorials-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 108.660254px);
+  left: calc(50%);
+}
+
+.projects-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% + 5px);
+}
+
+.projects-hex1 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(255, 94, 94);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(0px);
+  left: calc(96.60254px)
+}
+
+.projects-hex2 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(253, 182, 102);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(-58.660254px);
+  left: calc(101.60254px)
+}
+.projects-hex3 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(245, 228, 80);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(-58.660254px);
+  left: calc(198.20508px);
+}
+.projects-hex4 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(25, 158, 65);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: calc(203.20508px);
+}
+.projects-hex5 {
+  width: 0;
+  height: 0;
+  border-left: 86.60254px solid rgb(74, 52, 194);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(58.660254px);
+  left: calc(198.20508px);
+}
+.projects-hex6 {
+  width: 0;
+  height: 0;
+  border-right: 86.60254px solid rgb(177, 38, 154);
+  border-top: 50px solid transparent ;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  top: calc(58.660254px);
+  left: calc(101.60254px)
+}
+
+.random-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% + 8.660254px);
+  left: calc(50%);
+}
+
+.contact-container {
+  width: 86.60254px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% + 8.660254px);
+  left: calc(50% - 96.60254px);
+}
+
