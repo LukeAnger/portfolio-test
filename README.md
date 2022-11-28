@@ -1,5 +1,5 @@
 
-# Movie List
+# Portfolio
 
 ## Getting Started
 
@@ -19,6 +19,6 @@
   npm run react-dev
   ```
 
-4. Open localhost:3000 in the browser and you should see **Hello World!** if React is running correctly.
+4. Open localhost:3000
 
-Now you can get started building the application by visiting gLearn and following the next instructions there.
+Now you can get started building
